@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ClassPath: .
+Bundle-SymbolicName: org.ubimix.analyzer
+Bundle-Name: org.ubimix.analyzer
+Bundle-Version: 0.1.0
+Bundle-ManifestVersion: 2
+Bundle-Description: Content Analyzer API
+Export-Package: org.ubimix.analyzer.scores;version="0.1.0",
+ org.ubimix.analyzer.scores.impl;version="0.1.0",
+ org.ubimix.analyzer.server;version="0.1.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.w3c.dom;resolution:=optional
+
